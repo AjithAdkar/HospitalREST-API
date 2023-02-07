@@ -5,11 +5,10 @@ import java.util.HashMap;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.ajith.docter.model.DocterModel;
 
 @Component
 @ResponseBody
-public class DocRespones extends DocterModel {
+public class DocRespones  {
 	private String name;
 	private int age;
 	private String gender;

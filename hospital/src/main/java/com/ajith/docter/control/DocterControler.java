@@ -31,7 +31,8 @@ public class DocterControler {
 
 	@Autowired
 	DocterService service;
-
+	
+	
 	@GetMapping("/get")
 	private Map<Integer, DocterModel> getDoc() {
 		return service.get();
